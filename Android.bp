@@ -8119,6 +8119,23 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+	name: "thermal-engine",
+	owner: "xiaomi",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/thermal-engine"],
+			shared_libs: ["libcutils", "liblog", "libqmi_cci", "libqmi_common_so", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
 	name: "time_daemon",
 	owner: "xiaomi",
 	target: {

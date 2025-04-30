@@ -616,6 +616,7 @@ PRODUCT_PACKAGES += \
     ssgqmigd \
     ssgtzd \
     tftp_server \
+    thermal-engine \
     time_daemon \
     vppservice \
     wifidisplayhalservice \
