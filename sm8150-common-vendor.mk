@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8150-common/proprietary/vendor/etc/init/imsqmidaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsqmidaemon.rc \
     vendor/xiaomi/sm8150-common/proprietary/vendor/etc/init/imsrcsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsrcsd.rc \
     vendor/xiaomi/sm8150-common/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
-    vendor/xiaomi/sm8150-common/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/sm8150-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/sm8150-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/sm8150-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -190,7 +189,6 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker_stub \
     libsdsprpc \
     libsysmon_cdsp_skel \
-    libthermalclient \
     libvppclient \
     libvpphcp \
     libvpphvx \
@@ -596,7 +594,6 @@ PRODUCT_PACKAGES += \
     loc_launcher \
     lowi-server \
     mdm_helper \
-    mi_thermald \
     mlid \
     mlipayd@1.1 \
     msm_irqbalance \
@@ -618,7 +615,6 @@ PRODUCT_PACKAGES += \
     ssgqmigd \
     ssgtzd \
     tftp_server \
-    thermal-engine \
     time_daemon \
     vppservice \
     wifidisplayhalservice \
