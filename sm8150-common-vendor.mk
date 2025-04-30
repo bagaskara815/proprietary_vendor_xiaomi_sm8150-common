@@ -403,6 +403,7 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssd \
     libsystem_health_mon \
+    libthermalclient \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
